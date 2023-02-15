@@ -1,0 +1,92 @@
+.container{
+    margin: 10px;
+    
+}
+
+body {
+    background: url(./background/1876.jpg);
+    object-fit: scale-down;
+}
+.box-1 table{
+    width: 100%;
+    ;
+    
+}
+
+
+h1{
+    background-color:black;
+    padding-left: 50%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    width: 100%;
+}
+
+#navbar{
+    font-size: 18px;
+    padding-left: 50%;
+    background-color: black;
+    color: #fff;
+}
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display:inline
+}
+
+.box-2 table{
+   width: 100%;
+}
+
+.box-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+
+
+}
+.box-3 table{
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.my-form{
+    padding:20px;
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:20px;
+    width:100%
+}
+
+.my-form input[type="submit"]{
+    background-color: #333;
+    color:#fff;
+    padding:10px;
+    border: none;
+
+}
+
+
+
+
+
+.block{
+    float: left;
+    width: 24%;
+    border:1px solid #ccc;
+    padding:3px;
+    font-style: italic;
+    
+}

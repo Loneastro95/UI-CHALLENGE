@@ -1,40 +1,76 @@
 <!DOCTYPE html>
 <html>
     <title>Contact Us</title>
-
+    
+    <head> 
+     <link rel="stylesheet" href="./style.css">
+    </head>
+  <div class="container">
     <body>
-        <table style="width: 100%;">
+        <head>
+
+              <h1>Contact us on this page</h1>
+
+
+        <table style="width: 100%;"></table>
             <tr>
                 <td>
                     <a href="INDEX.html"> <img src="../HTML/LOGO/rm408-66.jpg"   width='400px' alt=""></a>
-                </td>  
-            <td>
-              <h1>Contact us on this page</h1>
-             </td> 
-             <td align="right" style="height:350px">
-               <nav style="margin-right:50px;margin-top:18px">
-                 <a href="INDEX.html">BACK</a>
-                 <a href="About us.html" style="margin:16PX">ABOUT US</a>
-                 <a href="Contact us.html">Contact Us</a>
-             </nav>
-            </td>
-            </tr>
+                </td>
+                <td>
+                 <nav id="navbar">
+                <div class="container">
+                 <ul>
+                    <li><a href="INDEX.html">BACK</a></li>
+                    <li><a href="About us.html" style="margin:16PX">ABOUT US</a></li>
+                    <li><a href="Contact us.html">Contact Us</a> </li>
+                 </ul>   
+                </div>
+            </nav> 
+        </td>
+        </tr>
         <head>
+
+        <main>
             <table>
+        
                 <tr>
                     <td>
-                        <H1>YOU CAN CONTACT US ON</H1>
+                        <h2>YOU CAN CONTACT US ON</h2>
                         <p>AYANDA SONTLABA <br> 0684792413</p>
                         <p>JONES WHITES <br>0672812415</p>
                         <p>E-mail <br> ayandasontlaba6@gmail.com</p>
                     </td>
                 </tr>
+
             </table>
+        </main>
+
+    <form>
+        <div class="form-group">
+            <label>NAME</label>
+            <input type="text" name="NAME">
+        </div>
+        <div class="form-group">
+            <label>EMAIL</label>
+            <input type="text" name="email">
+        </div>
+        <div class="form-group">
+            <label>Massage</label>
+            <textarea name="message"></textarea>
+        </div>
+        <input class="button" type="submit" value="Submit"
+        name="">
+    </form>
         </head>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <a href="http://facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
         <a href="https://twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+    <footer>
+        <p>Copyright &copy;2023 My Website</p>
+    </footer>
 
     </body>
+    </div>
 </html>
