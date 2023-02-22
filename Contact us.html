@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html>
-    <title>Contact Us</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+
     
-    <head> 
-     <link rel="stylesheet" href="./style.css">
     </head>
   <div class="container">
     <body>
@@ -46,7 +52,7 @@
             </table>
         </main>
 
-    <form>
+    <form action="https://formsubmit.co/ayandasontlaba6@gmail.com" method="POST">
         <div class="form-group">
             <label>NAME</label>
             <input type="text" name="NAME">
@@ -61,7 +67,7 @@
         </div>
         <input class="button" type="submit" value="Submit"
         name="">
-    </form>
+   
         </head>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -70,6 +76,42 @@
     <footer>
         <p>Copyright &copy;2023 My Website</p>
     </footer>
+    <script>
+
+        console.log('hello world')
+        alert(new Date())
+
+        function thumbsUp() {
+            document.getElementById("myImg").src="./assets/thumb-up.png";
+
+        }
+        function thumbsDown() {
+            document.getElementById("myImg").src="./assets/thumb-down.png";
+
+        }
+
+    </script>
+
+
+
+
+
+</head>
+<body>
+    
+    <div class="mainContainer">
+      <img src="./assets/thumb-up.png" id="myImg" alt="" />
+    
+      <div style="margin: 16px; border-radius: 16px;">
+        <button style="background-color: skyblue"  onclick="thumbsUp()">ThumbsUp</button>
+      </div> 
+        
+      <div>
+        <button style="background-color: red" onclick="thumbsDown ()">ThumbsDown</button>
+      </div>
+ </form>
+
+    </div>
 
     </body>
     </div>
